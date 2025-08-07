@@ -1,8 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import Image from "next/image";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -17,8 +15,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav__link">
-          <Link href="/movies" className="link__hover-effect">
-            Movies
+          <Link href="/services" className="link__hover-effect">
+            Services
+          </Link>
+        </li>
+        <li className="nav__link">
+          <Link href="/services" className="link__hover-effect">
+            About Us
           </Link>
         </li>
         <li className="nav__link">
