@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 ul {
@@ -22,10 +28,14 @@ a {
     text-decoration: none;
 }
 
+.blue {
+    color: #0731ee;
+}
+
 .btn {
-    background-color: #0e0cf3;
+    background-color: #0731ee;
     color: white;
-    padding: 12px 36px;
+    padding: 10px 25px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 9999px;
@@ -67,14 +77,14 @@ nav {
 }
 
 .nav__logo {
-    width: 160px;
-    height: 160px;
+    padding-left: 50px;
 }
 
 .nav__links {
     display: flex;
     align-items: center;
     color: #242424;
+    padding-right: 50px;
 }
 
 .nav__link {
