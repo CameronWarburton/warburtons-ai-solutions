@@ -25,7 +25,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav__link">
-          <button className="btn">
+          <button className="btn bg-gradient-to-r from-cyan-500 to-blue-500 hover:to-cyan-500 transition-all duration-300">
             Contact
           </button>
         </li>

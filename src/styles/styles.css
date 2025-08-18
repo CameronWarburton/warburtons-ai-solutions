@@ -33,7 +33,6 @@ a {
 }
 
 .btn {
-    background-color: #0731ee;
     color: white;
     padding: 10px 25px;
     font-size: 18px;
@@ -41,10 +40,6 @@ a {
     border-radius: 9999px;
     border: none;
     cursor: pointer;
-}
-
-.btn:hover {
-    background: #131090;
 }
 
 .link__hover-effect {
