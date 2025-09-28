@@ -48,7 +48,7 @@ export default function Home() {
         </h1>
         <div className="flex justify-center items-center">
           <Carousel
-            className="w-full mx-auto"
+            className="w-full max-w-8xl mx-auto"
             opts={{ loop: true }}
             plugins={[plugin.current]}
             onMouseEnter={plugin.current.stop}
@@ -98,11 +98,13 @@ export default function Home() {
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="cursor-pointer" />
+            <CarouselNext className="cursor-pointer" />
           </Carousel>
         </div>
       </section>
+
+      <section id="about" className="row py-20"></section>
     </main>
   );
 }

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Warburton's AI Solutions",
+  title: "Warburtons AI Solutions",
   description: "AI-driven websites and solutions to grow your business.",
 };
 
