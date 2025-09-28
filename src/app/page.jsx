@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main>
-      <section className="row">
+      <section id="hero" className="row">
         <div className="justify-between content-center items-center px-10 flex">
           <div>
             <h1 className="font-bold text-7xl pb-8">
@@ -42,13 +42,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="row py-20">
+      <section id="services" className="row py-20">
         <h1 className="flex justify-center font-bold text-7xl pb-8">
           Services
         </h1>
         <div className="flex justify-center items-center">
           <Carousel
-            className="w-full max-w-xl mx-auto"
+            className="w-full mx-auto"
             opts={{ loop: true }}
             plugins={[plugin.current]}
             onMouseEnter={plugin.current.stop}
