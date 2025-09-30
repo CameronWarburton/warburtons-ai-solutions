@@ -20,7 +20,7 @@ const Navbar = () => {
         className="nav__logo"
       />
       <ul className="nav__links">
-        <li className="nav__link">
+        <li className="nav__link hidden md:inline">
           <span
             onClick={() => scrollToSection("services")}
             className="link__hover-effect cursor-pointer"
@@ -28,7 +28,7 @@ const Navbar = () => {
             Services
           </span>
         </li>
-        <li className="nav__link">
+        <li className="nav__link hidden md:inline">
           <span
             onClick={() => scrollToSection("about")}
             className="link__hover-effect cursor-pointer"
