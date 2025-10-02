@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="py-10 bg-gradient-to-r from-cyan-500 to-blue-500"
     >
-      <h1 className="flex justify-center font-bold text-white text-7xl pb-8">
+      <h1 className="flex justify-center font-bold text-white text-7xl pb-8 pt-10">
         About Us
       </h1>
       <div className="flex justify-center">
@@ -53,7 +53,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center pt-30">
+      <div className="flex justify-center pt-30 pb-20">
         <div className="pr-20">
           <p className="text-white text-xl max-w-3xl">Hi, I’m Sammii <span className="wave">👋</span> </p>
           <p className="text-white text-xl max-w-3xl pt-5">
