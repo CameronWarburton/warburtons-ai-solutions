@@ -88,10 +88,6 @@ nav {
     margin: 12px auto;
 }
 
-.nav__logo {
-    padding-left: 50px;
-}
-
 .nav__links {
     display: flex;
     align-items: center;

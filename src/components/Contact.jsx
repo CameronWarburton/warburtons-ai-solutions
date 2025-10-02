@@ -6,18 +6,18 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xldpbvnq");
   return (
     <section id="contact" className="row py-15">
-      <h1 className="flex justify-center font-bold text-7xl pb-8">
+      <h1 className="flex justify-center font-bold text-5xl md:text-7xl pb-8">
         Contact Us
       </h1>
       <div className="flex justify-center items-center">
         {state.succeeded ? (
-          <p className="font-semibold text-2xl text-center text-green-600 pt-10">
-            Thank you for your message! A member of the team will be in touch shortly.
+          <p className="font-semibold px-2 md:px-0 text-xl md:text-2xl text-center text-green-600 md:pt-10">
+            Thank you for your message! <br /> A member of the team will be in touch shortly.
           </p>
         ) : (
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col w-full max-w-2xl space-y-4"
+            className="flex flex-col w-full max-w-2xl space-y-4 px-5 md:px-0"
           >
             <label htmlFor="name" className="font-semibold">
               Name

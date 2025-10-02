@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="hero" className="row">
       <div className="justify-between content-center items-center px-10 flex flex-col lg:flex-row">
         <div>
-          <h1 className="font-bold text-7xl pb-8">
+          <h1 className="font-bold text-5xl md:text-7xl pb-8">
             Your <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent transition-colors duration-300 hover:from-blue-500 hover:to-cyan-500">Launchpad</span> to an AI-Driven Future
           </h1>
           <p className="text-xl font-bold opacity-75 text-gray-900 max-w-150">
@@ -17,7 +17,7 @@ export default function Hero() {
           alt="AI Agent Illustration"
           width={500}
           height={600}
-          className="mt-10 pl-10 transition-transform duration-300 hover:scale-105"
+          className="mt-10 md:pl-10 transition-transform duration-300 hover:scale-105"
         />
       </div>
     </section>

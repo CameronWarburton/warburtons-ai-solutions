@@ -4,29 +4,29 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-10 bg-gradient-to-r from-cyan-500 to-blue-500"
+      className="py-10 px-10 xl:px-0 bg-gradient-to-r from-cyan-500 to-blue-500"
     >
-      <h1 className="flex justify-center font-bold text-white text-7xl pb-8 pt-10">
+      <h1 className="flex justify-center font-bold text-white text-5xl md:text-7xl pb-12 md:pb-8 pt-10">
         About Us
       </h1>
-      <div className="flex justify-center">
+      <div className="md:flex justify-center">
         <div className="flex flex-col items-center">
           <Image
             src="/assets/me.jpg"
             alt="Cameron Warburton's Portrait"
             width={420}
             height={350}
-            className="rounded-full"
+            className="rounded-full w-64 md:w-96 h-auto"
           />
           <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85">
             Cameron Warburton
           </h1>
-          <h1 className=" font-bold text-gray-100 opacity-80">
+          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80">
             Director & Founder
           </h1>
         </div>
-        <div className="pl-20">
-          <p className="text-white text-xl max-w-3xl">
+        <div className="md:pl-20 text-center md:text-left">
+          <p className="text-white text-2xl md:text-xl max-w-3xl">
             Hi, I'm Cameron <span className="wave">👋</span>
           </p>
           <p className="text-white text-xl max-w-3xl pt-5">
@@ -53,9 +53,9 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center pt-30 pb-20">
-        <div className="pr-20">
-          <p className="text-white text-xl max-w-3xl">Hi, I’m Sammii <span className="wave">👋</span> </p>
+      <div className="flex flex-col md:flex-row justify-center pt-30 pb-20">
+        <div className="text-center md:text-left md:pr-20 md:order-1 order-2">
+          <p className="text-white text-2xl md:text-xl max-w-3xl">Hi, I’m Sammii <span className="wave">👋</span> </p>
           <p className="text-white text-xl max-w-3xl pt-5">
             I’m the cofounder here and the marketing mind behind the brand. With
             a degree in Marketing and years of experience in events and account
@@ -81,18 +81,18 @@ export default function About() {
             our dog, who makes sure life is never boring.
           </p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center md:order-2 order-1">
           <Image
             src="/assets/Sammii.jpg"
             alt="Cameron Warburton's Portrait"
             width={420}
             height={350}
-            className="rounded-full"
+            className="rounded-full w-64 md:w-96 h-auto"
           />
           <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85">
             Samantha Williams
           </h1>
-          <h1 className=" font-bold text-gray-100 opacity-80">
+          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80">
             Director & Founder
           </h1>
         </div>

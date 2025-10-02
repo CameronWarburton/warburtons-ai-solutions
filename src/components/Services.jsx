@@ -8,7 +8,7 @@ export default function Services() {
 
   return (
     <section id="services" className="row py-20">
-            <h1 className="flex justify-center font-bold text-7xl pb-8">
+            <h1 className="flex justify-center font-bold text-5xl md:text-7xl pb-8">
               Services
             </h1>
             <div className="flex justify-center items-center">
@@ -20,7 +20,7 @@ export default function Services() {
                 onMouseLeave={plugin.current.play}
               >
                 <CarouselContent className="flex items-stretch">
-                  <CarouselItem className="basis-1/3 h-full">
+                  <CarouselItem className="md:basis-1/3 h-full">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Websites
@@ -34,7 +34,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         AI Solutions
@@ -48,7 +48,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Consulting
@@ -62,7 +62,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Small Business Websites
@@ -79,7 +79,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Medium Sized Business Websites
@@ -96,7 +96,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Large Business Websites
@@ -114,7 +114,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         E-Commerce Websites
@@ -132,7 +132,7 @@ export default function Services() {
                       </p>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="basis-1/3">
+                  <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
                         Web Applications
@@ -150,8 +150,10 @@ export default function Services() {
                     </div>
                   </CarouselItem>
                 </CarouselContent>
+                <div className="hidden xl:flex">
                 <CarouselPrevious className="cursor-pointer" />
                 <CarouselNext className="cursor-pointer" />
+                </div>
               </Carousel>
             </div>
           </section>

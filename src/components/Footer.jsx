@@ -13,15 +13,15 @@ export default function Footer() {
   };
     return (
         <footer className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-10 items-center">
-            <div className="text-center justify-center items-center font-semibold flex">
-                <p>&copy; 2025 Warburtons AI Solutions. All rights reserved.</p>
+            <div className="text-center justify-center items-center font-semibold flex flex-col md:flex-row">
                 <button
-          onClick={scrollToTop}
-          className="mt-4 pl-4 p-2 text-black text-2xl cursor-pointer animate-pulse"
-          aria-label="Back to top"
-        >
-          <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
-        </button>
+                    onClick={scrollToTop}
+                    className="mb-4 md:mb-0 md:order-2 pl-4 p-2 text-black text-2xl cursor-pointer animate-pulse"
+                    aria-label="Back to top"
+                >
+                    <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
+                </button>
+                <p className="md:order-1">&copy; 2025 Warburtons AI Solutions. All rights reserved.</p>
             </div>
         </footer>
     );
