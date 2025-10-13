@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="py-10 px-10 xl:px-0 bg-gradient-to-r from-cyan-500 to-blue-500"
     >
-      <h1 className="flex justify-center font-bold text-white text-5xl md:text-7xl pb-12 md:pb-8 pt-10">
+      <h1 className="flex justify-center font-bold text-white text-5xl md:text-7xl pb-12 md:pb-8 pt-10" data-aos="fade-up" data-aos-delay="200">
         About Us
       </h1>
       <div className="md:flex justify-center">
@@ -17,15 +17,16 @@ export default function About() {
             width={420}
             height={350}
             className="rounded-full w-64 md:w-96 h-auto"
+            data-aos="fade-right" data-aos-delay="300"
           />
-          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85">
+          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-left" data-aos-delay="400">
             Cameron Warburton
           </h1>
-          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80">
+          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-right" data-aos-delay="400">
             Director & Founder
           </h1>
         </div>
-        <div className="md:pl-20 text-center md:text-left">
+        <div className="md:pl-20 text-center md:text-left" data-aos="fade-left" data-aos-delay="300">
           <p className="text-white text-2xl md:text-xl max-w-3xl">
             Hi, I'm Cameron <span className="wave">👋</span>
           </p>
@@ -54,7 +55,7 @@ export default function About() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center pt-30 pb-20">
-        <div className="text-center md:text-left md:pr-20 md:order-1 order-2">
+        <div className="text-center md:text-left md:pr-20 md:order-1 order-2" data-aos="fade-right" data-aos-delay="300">
           <p className="text-white text-2xl md:text-xl max-w-3xl">Hi, I’m Sammii <span className="wave">👋</span> </p>
           <p className="text-white text-xl max-w-3xl pt-5">
             I’m the cofounder here and the marketing mind behind the brand. With
@@ -88,11 +89,12 @@ export default function About() {
             width={420}
             height={350}
             className="rounded-full w-64 md:w-96 h-auto"
+            data-aos="fade-left" data-aos-delay="300"
           />
-          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85">
+          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-right" data-aos-delay="400">
             Samantha Williams
           </h1>
-          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80">
+          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-left" data-aos-delay="400">
             Director & Founder
           </h1>
         </div>
