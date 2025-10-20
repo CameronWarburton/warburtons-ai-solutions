@@ -1,9 +1,8 @@
-
-
+import HowItWorks from "@/components/HowItWorks";
 export default function Process() {
     return (
         <main>
-            <h1>Process</h1>
+            <HowItWorks />
         </main>
     );
 }

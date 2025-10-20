@@ -12,15 +12,17 @@ export default function Hero() {
             We build smart AI solutions and modern websites that help your business stay ahead in the digital world.
           </p>
         </div>
+        <div>
         <Image
           src="/assets/undraw_vibe-coding.svg"
           alt="AI Agent Illustration"
           width={500}
           height={600}
-          className="mt-10 md:pl-10 transition-transform duration-300 hover:scale-105"
+          className="mt-10 md:pl-10 transform-gpu transition-transform duration-1200 ease-in-out hover:scale-105"
           data-aos="fade-up"
           data-aos-delay="400"
         />
+        </div>
       </div>
     </section>
   );
