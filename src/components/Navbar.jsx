@@ -66,7 +66,7 @@ const Navbar = () => {
           </li>
           <li className="nav__link">
             <Link href="/process" className="link__hover-effect cursor-pointer">
-              How it Works
+              How We Work
             </Link>
           </li>
           <li className="nav__link">

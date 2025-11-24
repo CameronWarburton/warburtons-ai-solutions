@@ -6,9 +6,9 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xldpbvnq");
   return (
     <section id="contact" className="row py-15">
-      <h1 className="flex justify-center font-bold text-5xl md:text-7xl pb-8" data-aos="fade-up" data-aos-delay="200">
+      <h2 className="flex justify-center font-bold text-5xl md:text-7xl pb-8" data-aos="fade-up" data-aos-delay="200">
         Contact Us
-      </h1>
+      </h2>
       <div className="flex justify-center items-center">
         {state.succeeded ? (
           <p className="font-semibold px-2 md:px-0 text-xl md:text-2xl text-center text-green-600 md:pt-10" data-aos="fade-up">

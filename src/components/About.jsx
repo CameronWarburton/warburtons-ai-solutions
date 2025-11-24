@@ -6,9 +6,9 @@ export default function About() {
       id="about"
       className="py-10 px-10 xl:px-0 bg-gradient-to-r from-cyan-500 to-blue-500"
     >
-      <h1 className="flex justify-center font-bold text-white text-5xl md:text-7xl pb-12 md:pb-8 pt-10" data-aos="fade-up" data-aos-delay="200">
+      <h2 className="flex justify-center font-bold text-white text-5xl md:text-7xl pb-12 md:pb-8 pt-10" data-aos="fade-up" data-aos-delay="200">
         About Us
-      </h1>
+      </h2>
       <div className="md:flex justify-center">
         <div className="flex flex-col items-center">
           <Image
@@ -19,12 +19,12 @@ export default function About() {
             className="rounded-full w-64 md:w-96 h-auto"
             data-aos="fade-right" data-aos-delay="300"
           />
-          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-left" data-aos-delay="400">
+          <h2 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-left" data-aos-delay="400">
             Cameron Warburton
-          </h1>
-          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-right" data-aos-delay="400">
+          </h2>
+          <h3 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-right" data-aos-delay="400">
             Director & Founder
-          </h1>
+          </h3>
         </div>
         <div className="md:pl-20 text-center md:text-left" data-aos="fade-left" data-aos-delay="300">
           <p className="text-white text-2xl md:text-xl max-w-3xl">
@@ -91,12 +91,12 @@ export default function About() {
             className="rounded-full w-64 md:w-96 h-auto"
             data-aos="fade-left" data-aos-delay="300"
           />
-          <h1 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-right" data-aos-delay="400">
+          <h2 className="pt-3 text-2xl font-bold text-gray-100 opacity-85" data-aos="fade-right" data-aos-delay="400">
             Samantha Williams
-          </h1>
-          <h1 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-left" data-aos-delay="400">
+          </h2>
+          <h3 className="pb-6 md:pb-0 font-bold text-gray-100 opacity-80" data-aos="fade-left" data-aos-delay="400">
             Director & Founder
-          </h1>
+          </h3>
         </div>
       </div>
     </section>

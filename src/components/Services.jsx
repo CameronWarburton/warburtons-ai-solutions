@@ -8,9 +8,9 @@ export default function Services() {
 
   return (
     <section id="services" className="row py-20">
-            <h1 className="flex justify-center font-bold text-5xl md:text-7xl pb-8" data-aos="fade-up" data-aos-delay="200">
+            <h2 className="flex justify-center font-bold text-5xl md:text-7xl pb-8" data-aos="fade-up" data-aos-delay="200">
               Services
-            </h1>
+            </h2>
             <div className="flex justify-center items-center" data-aos="fade-up" data-aos-delay="300">
               <Carousel
                 className="w-full max-w-8xl mx-auto"
