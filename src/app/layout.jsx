@@ -42,7 +42,7 @@ export const metadata = {
     siteName: "Warburtons AI Solutions",
     images: [
       {
-        url: "https://www.warburtonsaisolutions.co.uk/og-image.jpg",
+        url: "https://www.warburtonsaisolutions.co.uk/og-image.png",
         width: 1200,
         height: 630,
         alt: "Warburtons AI Solutions banner",
@@ -57,7 +57,7 @@ export const metadata = {
     title: "Warburtons AI Solutions | AI Websites & Automation",
     description:
       "Boost your business with websites and automation tools from Warburtons AI Solutions.",
-    images: ["https://www.warburtonsaisolutions.co.uk/og-image.jpg"],
+    images: ["https://www.warburtonsaisolutions.co.uk/og-image.png"],
   },
 
   robots: {

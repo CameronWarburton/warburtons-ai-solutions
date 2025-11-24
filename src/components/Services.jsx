@@ -117,10 +117,10 @@ export default function Services() {
                   <CarouselItem className="md:basis-1/3">
                     <div className="p-8 bg-gradient-to-r from-cyan-500 to-blue-500 font-white rounded-md text-center min-h-[260px] flex flex-col">
                       <h2 className="text-2xl font-semibold mb-4 text-white">
-                        E-Commerce Websites
+                        Shopify Sites
                       </h2>
                       <p className="text-white">
-                        We build e-commerce websites that make it easy for your
+                        We build Shopify sites that make it easy for your
                         customers to browse, shop, and buy with confidence. From
                         sleek product displays and secure checkouts to
                         mobile-friendly designs and seamless payment integrations,
